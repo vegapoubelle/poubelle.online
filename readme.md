@@ -11,7 +11,7 @@ only [x4m3](https://philippeloctaux.com) has it
 ```bash
 #!/bin/sh
 
-GIT_REPO=https://github.com/vega-poubelle.git
+GIT_REPO=https://github.com/vegapoubelle/poubelle.online.git
 TMP_GIT_CLONE=/tmp/la-poubelle
 PUBLIC_WWW=/srv/www/poubelle.online
 
@@ -20,8 +20,8 @@ git clone $GIT_REPO $TMP_GIT_CLONE --depth=1
 echo "git repo cloned"
 cd $TMP_GIT_CLONE
 echo "building"
-cp ~/poubelle-connect.php php/connect.php
-cp * $PUBLIC_WWW -r -v
+cp ~/poubelle-connect.php src/php/connect.php
+cp src/* $PUBLIC_WWW -r -v
 rm -Rf $TMP_GIT_CLONE
 echo "built and ready to be served"
 exit

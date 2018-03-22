@@ -1,6 +1,9 @@
 # poubelle.online
 le site internet
 
+you need the `connect.php` file that has the creds for the mysql server  
+only [x4m3](https://philippeloctaux.com) has it
+
 ## commands to run for phil
 `git remote add deploy vps:~/la-poubelle.git`
 

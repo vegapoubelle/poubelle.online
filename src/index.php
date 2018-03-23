@@ -10,6 +10,7 @@
     <link rel="manifest" href="/f/manifest.json">
     <link rel="mask-icon" href="/f/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="theme-color" content="#ffffff">
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
     <style>
 body {
   background-image: url("fond.png");
@@ -29,15 +30,17 @@ table.center {
   margin-left:auto; 
   margin-right:auto;
 }
+#title {
+  font-family: 'Shrikhand', cursive;
+  font-size: 3em;
+}
     </style>
   </head>
   <body>
 <?php require 'php/connect.php';?>
     <p><img src="poubelle.png" alt="Logo">
     </p>
-    <h1>La Vega Poubelle</h1>
-
-    <p>site <i>toujours</i> en construction</p>
+    <h1 id="title">La Vega Poubelle</h1>
 
     <p>
       valeur actuelle: <b><?php echo $masse; ?></b>, dernière modification: <b><?php echo $time; ?></b>.

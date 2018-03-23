@@ -37,8 +37,13 @@ a {
 
     <footer>
       <b>fait avec ❤️ à Pontivy</b><br>
-      code disponible sur <a href="https://github.com/vegapoubelle">github</a><br><br>
-      &copy; Copyright <a href="https://philippeloctaux.com">Philippe Loctaux</a>, <a href="https://github.com/Guehendek">Yann Le Guehennec</a>, <a href="https://github.com/bideabiere">Elouan Lamour</a>, <a href="https://www.youtube.com/channel/UChFaUrD7t1JQ0w7rObWhIRA">Benoit-Joseph Millot</a> <?php $fromYear = 2017;  $thisYear = (int)date('Y');  echo $fromYear . (($fromYear != $thisYear) ? '-' . $thisYear : '');?></footer>
+      code disponible sur 
+      <a href="https://github.com/vegapoubelle" title="Tout le code du projet"title>github</a><br><br>
+      &copy; Copyright <a href="https://philippeloctaux.com" title="Le russe">Philippe Loctaux</a>,
+      <a href="https://github.com/Guehendek" title="Le chinois">Yann Le Guehennec</a>,
+      <a href="https://github.com/bideabiere" title="Bideabiere">Elouan Lamour</a>, 
+      <a href="https://www.youtube.com/channel/UChFaUrD7t1JQ0w7rObWhIRA" title="Benjo">Benoit-Joseph Millot</a> 
+      <?php $fromYear = 2017;  $thisYear = (int)date('Y');  echo $fromYear . (($fromYear != $thisYear) ? '-' . $thisYear : '');?></footer>
   </body>
 </html>
 

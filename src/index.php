@@ -44,6 +44,7 @@ table.center {
 
     <p>
       id: <b><?php echo $id; ?></b>,
+      matière: <b><?php echo $matiere; ?></b>,
       masse: <b><?php echo $masse; ?></b>,
       dernière modification: <b><?php echo $time; ?></b>.
     </p>

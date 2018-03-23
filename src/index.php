@@ -26,7 +26,8 @@ a {
   </head>
   <body>
 <?php require 'php/connect.php';?>
-    <img src="poubelle.png">
+    <p><img src="poubelle.png" alt="Logo">
+    </p>
     <h1>La Vega Poubelle</h1>
 
     <p>site <i>toujours</i> en construction</p>

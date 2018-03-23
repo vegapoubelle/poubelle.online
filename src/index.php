@@ -12,15 +12,18 @@
     <meta name="theme-color" content="#ffffff">
     <style>
 body {
+  background-image: url("fond.png");
   font-family: verdana, arial, helvetica, sans-serif;
   text-align: center;
   margin: 1em 0px 1em;
   font-size: 16px;
+  color: silver;
 }
 a {
   font-family: arial, sans-serif;
   padding-left: 1px;
   padding-right: 1px;
+  color: white;
 }
 table.center {
   margin-left:auto; 

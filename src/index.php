@@ -43,7 +43,9 @@ table.center {
     <h1 id="title">La Vega Poubelle</h1>
 
     <p>
-      valeur actuelle: <b><?php echo $masse; ?></b>, dernière modification: <b><?php echo $time; ?></b>.
+      id: <b><?php echo $id; ?></b>,
+      masse: <b><?php echo $masse; ?></b>,
+      dernière modification: <b><?php echo $time; ?></b>.
     </p>
 
     <footer>

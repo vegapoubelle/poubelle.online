@@ -22,6 +22,10 @@ a {
   padding-left: 1px;
   padding-right: 1px;
 }
+table.center {
+  margin-left:auto; 
+  margin-right:auto;
+}
     </style>
   </head>
   <body>
@@ -39,11 +43,27 @@ a {
       <b>fait avec ❤️ à Pontivy</b><br>
       code disponible sur 
       <a href="https://github.com/vegapoubelle" title="Tout le code du projet"title>github</a><br><br>
-      &copy; Copyright <a href="https://philippeloctaux.com" title="Le russe">Philippe Loctaux</a>,
-      <a href="https://github.com/Guehendek" title="Le chinois">Yann Le Guehennec</a>,
-      <a href="https://github.com/bideabiere" title="Bideabiere">Elouan Lamour</a>, 
-      <a href="https://www.youtube.com/channel/UChFaUrD7t1JQ0w7rObWhIRA" title="Benjo">Benoit-Joseph Millot</a> 
-      <?php $fromYear = 2017;  $thisYear = (int)date('Y');  echo $fromYear . (($fromYear != $thisYear) ? '-' . $thisYear : '');?></footer>
+      
+      <table class="center">
+        <thead>
+          <tr>
+            <th><a href="https://github.com/bideabiere" title="Bideabiere">Elouan Lamour</a></th>
+            <th><a href="https://www.youtube.com/channel/UChFaUrD7t1JQ0w7rObWhIRA" title="Benjo">Benoit-Joseph Millot</a></th>
+            <th><a href="https://github.com/Guehendek" title="Le chinois">Yann Le Guehennec</a></th>
+            <th><a href="http://philippeloctaux.com" title="Le russe">Philippe Loctaux</a></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="https://github.com/bideabiere" title="Bideabiere"><img src="https://avatars0.githubusercontent.com/u/34767257?s=100" alt="Bideabiere" style="max-width:100%;"></a></td>
+            <td><a href="https://www.youtube.com/channel/UChFaUrD7t1JQ0w7rObWhIRA" title="Benjo"><img src="https://avatars2.githubusercontent.com/u/34767515?s=100" alt="Benjo" style="max-width:100%;"></a></td>
+            <td><a href="https://github.com/Guehendek" title="Le chinois"><img src="https://avatars1.githubusercontent.com/u/34568595?s=100" alt="Le chinois" style="max-width:100%;"></a></td>
+            <td><a href="http://philippeloctaux.com" title="Le russe"><img src="https://avatars0.githubusercontent.com/u/8809909?s=100" alt="Le russe" style="max-width:100%;"></a></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      &copy; Copyright <?php $fromYear = 2017;  $thisYear = (int)date('Y');  echo $fromYear . (($fromYear != $thisYear) ? '-' . $thisYear : '');?></footer>
   </body>
 </html>
 

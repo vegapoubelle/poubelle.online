@@ -37,7 +37,7 @@ table.center {
     <p>site <i>toujours</i> en construction</p>
 
     <p>
-      valeur magique: <b><?php echo $masse; ?></b>
+      valeur actuelle: <b><?php echo $masse; ?></b>, dernière modification: <b><?php echo $time; ?></b>.
     </p>
 
     <footer>

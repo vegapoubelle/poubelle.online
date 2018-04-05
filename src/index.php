@@ -65,10 +65,10 @@ table.center {
         </thead>
         <tbody>
           <tr>
-            <td><a href="https://github.com/bideabiere" title="Bideabiere"><img src="https://avatars0.githubusercontent.com/u/34767257?s=100" alt="Bideabiere" style="max-width:100%;"></a></td>
-            <td><a href="https://www.youtube.com/channel/UChFaUrD7t1JQ0w7rObWhIRA" title="Benjo"><img src="https://avatars2.githubusercontent.com/u/34767515?s=100" alt="Benjo" style="max-width:100%;"></a></td>
-            <td><a href="https://github.com/Guehendek" title="Le chinois"><img src="https://avatars1.githubusercontent.com/u/34568595?s=100" alt="Le chinois" style="max-width:100%;"></a></td>
-            <td><a href="http://philippeloctaux.com" title="Le russe"><img src="https://avatars0.githubusercontent.com/u/8809909?s=100" alt="Le russe" style="max-width:100%;"></a></td>
+            <td><a href="https://github.com/bideabiere" title="Bideabiere"><img src="img/elouan.jpg" alt="Bideabiere" style="max-width:100%;"></a></td>
+            <td><a href="https://www.youtube.com/channel/UChFaUrD7t1JQ0w7rObWhIRA" title="Benjo"><img src="benjo.jpg" alt="Benjo" style="max-width:100%;"></a></td>
+            <td><a href="https://github.com/Guehendek" title="Le chinois"><img src="yann.jpg" alt="Le chinois" style="max-width:100%;"></a></td>
+            <td><a href="http://philippeloctaux.com" title="Le russe"><img src="phil.jpg" alt="Le russe" style="max-width:100%;"></a></td>
           </tr>
         </tbody>
       </table>

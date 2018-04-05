@@ -66,9 +66,9 @@ table.center {
         <tbody>
           <tr>
             <td><a href="https://github.com/bideabiere" title="Bideabiere"><img src="img/elouan.jpg" alt="Bideabiere" style="max-width:100%;"></a></td>
-            <td><a href="https://www.youtube.com/channel/UChFaUrD7t1JQ0w7rObWhIRA" title="Benjo"><img src="benjo.jpg" alt="Benjo" style="max-width:100%;"></a></td>
-            <td><a href="https://github.com/Guehendek" title="Le chinois"><img src="yann.jpg" alt="Le chinois" style="max-width:100%;"></a></td>
-            <td><a href="http://philippeloctaux.com" title="Le russe"><img src="phil.jpg" alt="Le russe" style="max-width:100%;"></a></td>
+            <td><a href="https://www.youtube.com/channel/UChFaUrD7t1JQ0w7rObWhIRA" title="Benjo"><img src="img/benjo.jpg" alt="Benjo" style="max-width:100%;"></a></td>
+            <td><a href="https://github.com/Guehendek" title="Le chinois"><img src="img/yann.jpg" alt="Le chinois" style="max-width:100%;"></a></td>
+            <td><a href="http://philippeloctaux.com" title="Le russe"><img src="img/phil.jpg" alt="Le russe" style="max-width:100%;"></a></td>
           </tr>
         </tbody>
       </table>

@@ -42,12 +42,14 @@ table.center {
     </p>
     <h1 id="title">La Vega Poubelle</h1>
 
+    <!-- php goes here -->
     <p>
       id: <b><?php echo $id; ?></b>,
       matière: <b><?php echo $matiere; ?></b>,
       masse: <b><?php echo $masse; ?></b>,
       dernière modification: <b><?php echo $time; ?></b>.
     </p>
+    <!-- php done here -->
 
     <footer>
       <b>fait avec ❤️ à Pontivy</b><br>

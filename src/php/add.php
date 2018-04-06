@@ -18,7 +18,7 @@ if (isset($_GET['masse'])) {
 
 /* prepare to write into the mysql */
 /* $write_command = $bdd->prepare('UPDATE masse SET masse = :masse'); */
-$write_command = $bdd->prepare('INSERT INTO masse(masse, date) VALUES (:masse, NOW() )');
+$write_command = $bdd->prepare('INSERT INTO masse(masse, time) VALUES (:masse, NOW() )');
 
 /* actually write into the mysql */
 $write_command->execute(array('masse' => $masse))

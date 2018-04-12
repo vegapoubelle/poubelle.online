@@ -9,11 +9,12 @@
  */
 if (isset($_GET['masse'])) {
 
-  /* save that into a php variable */
+  /* save "masse" into php variable */
   $masse = $_GET['masse'];
   /* debug: echo($masse); */
 }
 
+  /* save "matiere" into php variable */
 if (isset($_GET['matiere'])) {
   switch ($_GET['matiere']) {
     case 1:

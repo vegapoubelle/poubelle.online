@@ -14,6 +14,23 @@ if (isset($_GET['masse'])) {
   /* debug: echo($masse); */
 }
 
+if (isset($_GET['matiere'])) {
+  switch ($_GET['matiere']) {
+    case 1:
+      $matiere = 1;
+      break;
+    case 2:
+      $matiere = 2;
+      break;
+    case 3:
+      $matiere = 3;
+      break;
+  }
+  /*if ($_GET['matiere'] == 1) {
+    $matiere = 1;
+  } */
+}
+
 /******************** write stuff to the mysql server */
 
 /* prepare to write into the mysql */

@@ -18,13 +18,13 @@ if (isset($_GET['masse'])) {
 if (isset($_GET['matiere'])) {
   switch ($_GET['matiere']) {
     case 1:
-      $matiere = 1;
+      $matiere = "metal";
       break;
     case 2:
-      $matiere = 2;
+      $matiere = "verre";
       break;
     case 3:
-      $matiere = 3;
+      $matiere = "plastique";
       break;
   }
 }

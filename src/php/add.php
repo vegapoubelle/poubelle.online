@@ -18,7 +18,7 @@ if (isset($_GET['masse'])) {
 if (isset($_GET['matiere'])) {
   switch ($_GET['matiere']) {
     case 1:
-      $matiere = "métal";
+      $matiere = "metal";
       break;
     case 2:
       $matiere = "verre";

@@ -27,9 +27,6 @@ if (isset($_GET['matiere'])) {
       $matiere = 3;
       break;
   }
-  /*if ($_GET['matiere'] == 1) {
-    $matiere = 1;
-  } */
 }
 
 /******************** write stuff to the mysql server */

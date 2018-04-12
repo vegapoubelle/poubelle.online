@@ -47,7 +47,7 @@ table.center {
       id: <b><?php echo $id; ?></b>,
       matière: <b><?php echo $matiere; ?></b>,
       masse: <b><?php echo $masse; ?></b>,
-      date: <b><?php echo $time; ?></b>.
+      date/heure: <b><?php echo $time; ?></b>.
     </p>
     <!-- php done here -->
 

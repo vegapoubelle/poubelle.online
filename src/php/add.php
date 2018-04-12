@@ -44,5 +44,6 @@ $write_command->execute(array('masse' => $masse))
 ?>
 if you see this message that means it <i>should</i> have worked<br>
 masse: <b><?php echo $masse;?></b><br>
+matiere: <b><?php echo $matiere;?></b><br>
 <br>
 back <a href="http://poubelle.online">to the main site</a>

@@ -78,7 +78,3 @@ table.center {
       &copy; Copyright <?php $fromYear = 2017;  $thisYear = (int)date('Y');  echo $fromYear . (($fromYear != $thisYear) ? '-' . $thisYear : '');?></footer>
   </body>
 </html>
-
-<!--
-vim: set ts=2 sw=2 sts=2 et :
--->

@@ -27,10 +27,10 @@ a {
   color: white;
 }
 table.center {
-  margin-left:auto; 
+  margin-left:auto;
   margin-right:auto;
 }
-#title {
+h1 {
   font-family: 'Shrikhand', cursive;
   font-size: 3em;
 }
@@ -40,7 +40,7 @@ table.center {
 <?php require 'php/connect.php';?>
     <p><img src="poubelle.png" alt="Logo">
     </p>
-    <h1 id="title">La Vega Poubelle</h1>
+    <h1">La Vega Poubelle</h1>
 
     <!-- php goes here -->
     <p>
@@ -53,9 +53,9 @@ table.center {
 
     <footer>
       <b>fait avec ❤️ à Pontivy</b><br>
-      code disponible sur 
+      code disponible sur
       <a href="https://github.com/vegapoubelle" title="Tout le code du projet"title>github</a><br><br>
-      
+
       <table class="center">
         <thead>
           <tr>

@@ -40,8 +40,8 @@ h1 {
 <?php require 'php/connect.php';?>
     <p><img src="poubelle.png" alt="Logo">
     </p>
-    <h1>www.poubelle.online</h1>
     <h1>La Vega Poubelle</h1>
+    <h2>www.poubelle.online</h2>
 
     <!-- php goes here -->
     <p>

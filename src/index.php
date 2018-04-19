@@ -54,7 +54,9 @@ h1 {
     <footer>
       <b>fait avec ❤️ à Pontivy</b><br>
       code disponible sur
-      <a href="https://github.com/vegapoubelle" title="Tout le code du projet"title>github</a><br><br>
+      <a href="https://github.com/vegapoubelle" title="Tout le code du projet">github</a><br>
+      <a href="https://vegapoubelle.github.io/presentation-olympiades" title="présentation">présentation aux olympiades de lorient</a><br>
+      <br>
 
       <table class="center">
         <thead>

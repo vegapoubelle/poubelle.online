@@ -46,7 +46,7 @@ h1 {
     <p>
       id: <b><?php echo $id; ?></b>,
       matière: <b><?php echo $matiere; ?></b>,
-      masse: <b><?php echo $masse; ?></b>,
+      masse: <b><?php echo $masse; ?> grammes</b>,
       date/heure: <b><?php echo $time; ?></b>.
     </p>
     <!-- php done here -->

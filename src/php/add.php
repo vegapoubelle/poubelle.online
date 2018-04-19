@@ -26,6 +26,9 @@ if (isset($_GET['matiere'])) {
     case 3:
       $matiere = "plastique";
       break;
+    case 4:
+      $matiere = "autre";
+      break;
   }
 }
 

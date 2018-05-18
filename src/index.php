@@ -50,16 +50,6 @@ h1 {
       masse: <b><?php echo $masse; ?> grammes</b>,
       date/heure: <b><?php echo $time; ?></b>.
     </p>
-
-    <p>
-while ($row = mysql_fetch_array($donnees)) {
-    echo '<tr>';
-    foreach($row as $field) {
-        echo '<td>' . htmlspecialchars($field) . '</td>';
-    }
-    echo '</tr>';
-}
-    </p>
     <!-- php done here -->
 
     <footer>

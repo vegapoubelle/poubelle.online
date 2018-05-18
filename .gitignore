@@ -1,8 +1,5 @@
 # x4m3's gitignore
-# by default: vim, git, linux, osx, windows 
-
-### poubelle.online ###
-connect.php
+# by default: vim, git, linux, osx, windows
 
 ### Vim ###
 # swap

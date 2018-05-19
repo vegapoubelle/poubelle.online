@@ -18,10 +18,10 @@ catch(PDOException $e) {
 /* select the table */
 $reponse = $bdd->query('SELECT * FROM masse ORDER BY id DESC LIMIT 0, 1');
 
-/* organize shit */
+/* organize stuff */
 $donnees = $reponse->fetch();
 
-/* save shit from database to the php vars */
+/* save stuff from database to the php vars */
 $id = $donnees['id'];
 $matiere = $donnees['matiere'];
 $masse = $donnees['masse'];

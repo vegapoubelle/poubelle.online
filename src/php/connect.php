@@ -9,10 +9,10 @@ try {
   $bdd = new PDO('mysql:host=localhost;dbname=poubelle', 'user', 'password');
 }
 
-/* if there's an error, we can go fuck ourselves */
+/* if there's an error, show an error message */
 catch(PDOException $e) {
   echo $e->getMessage();
-  die("fuck off");
+  die("can't connect!");
 }
 
 /* select the table */

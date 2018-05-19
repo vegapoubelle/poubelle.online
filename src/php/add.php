@@ -4,14 +4,9 @@
 
 /******************** check and store stuff from the arduino into php vars */
 
-/* check if the variable has been recieved from the GET of the arduino
- * that's what you put in the arduino program in the url
- */
+/* save "masse" into php variable */
 if (isset($_GET['masse'])) {
-
-  /* save "masse" into php variable */
   $masse = $_GET['masse'];
-  /* debug: echo($masse); */
 }
 
 /* save "matiere" into php variable */

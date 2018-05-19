@@ -14,7 +14,7 @@ if (isset($_GET['masse'])) {
   /* debug: echo($masse); */
 }
 
-  /* save "matiere" into php variable */
+/* save "matiere" into php variable */
 if (isset($_GET['matiere'])) {
   switch ($_GET['matiere']) {
     case 1:
@@ -40,11 +40,8 @@ $write_command = $bdd->prepare("INSERT INTO masse(masse, matiere, time) VALUES (
 
 /* actually write into the mysql */
 $write_command->execute(array('masse' => $masse))
-
-
-  /********************/
-
 ?>
+
 if you see this message that means it <i>should</i> have worked<br>
 masse: <b><?php echo $masse;?></b><br>
 matiere: <b><?php echo $matiere;?></b><br>

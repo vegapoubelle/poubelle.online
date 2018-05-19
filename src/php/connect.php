@@ -1,8 +1,5 @@
 <?php
 /* code by x4m3 <https://philippeloctaux.com> */
-/* source on github */
-
-/******************** connect to the mysql server and get stuff from it */
 
 /* host; database name; user; password; */
 try {

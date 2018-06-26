@@ -12,9 +12,6 @@ here's the mysql structure if you wanna do the same thing: ![mysql structure](my
 
 the database name is **poubelle**, the table name is **masse**.
 
-## commands to run for phil
-`git remote add deploy vps:~/la-poubelle.git`
-
 ## git hook on the server
 ```bash
 #!/bin/sh

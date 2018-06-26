@@ -10,6 +10,8 @@ a http server + php (i used nginx and some php thing)
 
 here's the mysql structure if you wanna do the same thing: ![mysql structure](mysql.png)
 
+the database name is **poubelle**, the table name is **masse**.
+
 ## commands to run for phil
 `git remote add deploy vps:~/la-poubelle.git`
 

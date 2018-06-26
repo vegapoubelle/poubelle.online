@@ -1,8 +1,14 @@
 # poubelle.online
 le site internet
 
-you need the `connect.php` file that has the creds for the mysql server  
+you need the `connect.php` file that has the creds for the mysql server
 only [x4m3](https://philippeloctaux.com) has it
+
+## server requirements
+some mysql server for the database stored
+a http server + php (i used nginx and some php thing)
+
+here's the mysql structure if you wanna do the same thing: ![mysql structure](mysql.png)
 
 ## commands to run for phil
 `git remote add deploy vps:~/la-poubelle.git`

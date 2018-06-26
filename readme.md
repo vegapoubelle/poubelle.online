@@ -13,6 +13,9 @@ here's the mysql structure if you wanna do the same thing: ![mysql structure](my
 the database name is **poubelle**, the table name is **masse**.
 
 ## git hook on the server
+
+i have a git repo on the server where everything is hosted, and when the website is being pushed to the server, the hook grabs the contents from this git repo and puts the **connect.php** file with the correct credentials for the mysql server, and puts everything into the folder for the web server:
+
 ```bash
 #!/bin/sh
 

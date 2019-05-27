@@ -2,7 +2,7 @@
 le site internet
 
 you need the `connect.php` file that has the creds for the mysql server
-only [x4m3](https://philippeloctaux.com) has it
+~~only [x4m3](https://philippeloctaux.com) has it~~ (*he lost the file*)
 
 ## server requirements
 some mysql server for the database stored
